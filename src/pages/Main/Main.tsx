@@ -84,6 +84,7 @@ export const Main = () => {
                 type="primary"
                 onClick={() => {
                   setFiltered("")
+                  collapse()
                 }}
               >
                 Сброс
@@ -97,6 +98,7 @@ export const Main = () => {
                     type="default"
                     onClick={() => {
                       setFiltered(item)
+                      collapse()
                     }}
                   >
                     {item}
